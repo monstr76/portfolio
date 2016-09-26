@@ -1,0 +1,140 @@
+/* line 3, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 10, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+body {
+  font-family: "Roboto-Regular", Arial, sans-serif;
+  color: #313131;
+  min-width: 960px; }
+
+@media screen and (max-width: 1280px) {
+  /* Mobile */
+  /* line 19, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .face {
+    display: none; } }
+
+/* line 44, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+.header {
+  height: 5.5em;
+  background-color: #eee; }
+
+/* line 49, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+.logo {
+  background-color: #eee;
+  margin: .7em 0;
+  float: left;
+  font: bold 2em "Lobster-Regular"; }
+  /* line 55, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .logo a {
+    color: #b41515;
+    text-decoration: none; }
+    /* line 61, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+    .logo a:hover,
+    .logo a:visited,
+    .logo a:active {
+      color: #b41515; }
+
+/* line 66, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+.menu_top {
+  float: right;
+  margin-top: 2em; }
+  /* line 70, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .menu_top ul {
+    list-style: none; }
+  /* line 76, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .menu_top li {
+    float: left;
+    margin: 0px 1em;
+    padding-bottom: .2em; }
+  /* line 85, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .menu_top a,
+  .menu_top a:active,
+  .menu_top a:visited {
+    color: #111;
+    text-decoration: none; }
+  /* line 90, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .menu_top a:hover {
+    cursor: pointer;
+    color: red; }
+  /* line 96, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .menu_top li.active {
+    cursor: pointer;
+    color: red;
+    border-bottom: 2px solid red; }
+
+/* line 103, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+.face {
+  height: 600px;
+  background-color: #b41515;
+  text-align: center; }
+  /* line 109, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .face img {
+    margin: 0 auto; }
+
+/* line 128, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+.projects {
+  background-color: #448b25;
+  color: white; }
+  /* line 133, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .projects h2 {
+    margin: 2.6em 0;
+    text-align: center;
+    font: 2.6em "Roboto-Regular";
+    color: #eee; }
+  /* line 140, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .projects img {
+    width: 15em;
+    height: 22em;
+    padding: 0 0.2em;
+    font-size: .8em; }
+  /* line 147, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .projects p {
+    margin: 1.2em auto 2em;
+    padding: 0 1em 0 1em;
+    color: #eee;
+    font: 1em "Roboto-Regular";
+    text-align: center; }
+  /* line 156, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .projects .center {
+    text-align: center; }
+  /* line 162, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .projects .line hr {
+    margin: 2em 0 4em;
+    height: 1px;
+    border: none;
+    color: #157915;
+    background-color: #157915; }
+  /* line 171, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  .projects .line2 {
+    height: 5em; }
+
+/* line 176, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+footer {
+  height: 8em;
+  background-color: #191919; }
+  /* line 180, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  footer span {
+    color: #b41515; }
+  /* line 184, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  footer ul {
+    list-style: none;
+    margin-top: 1.5em; }
+  /* line 189, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  footer li {
+    color: #808080;
+    margin: .4em 0;
+    font: 1em "Roboto-Regular"; }
+  /* line 195, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+  footer .social {
+    float: right; }
+    /* line 198, D:/OpenServer/domains/localhost/portfolio/css/main.scss */
+    footer .social i {
+      margin: 1.6em 0.2em;
+      color: #448b25; }
+
+/*# sourceMappingURL=main.css.map */

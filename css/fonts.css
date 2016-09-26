@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular.woff') format('woff'),
+         url('../fonts/Roboto-Regular.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+	font-style:normal;
+	font-weight:normal;
+}
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('../fonts/Lobster-Regular.eot');
+    src: url('../fonts/Lobster-Regular.eot') format('embedded-opentype'),
+         url('../fonts/Lobster-Regular.woff') format('woff'),
+         url('../fonts/Lobster-Regular.ttf') format('truetype'),
+         url('../fonts/Lobster-Regular.svg#Lobster-Regular') format('svg');
+	font-style:normal;
+	font-weight:normal;
+}
+

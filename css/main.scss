@@ -1,0 +1,204 @@
+//fonts: Roboto-Regular, Lobster-Regular
+
+*{
+  padding:0;
+  margin:0;
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+}
+body{
+  font-family: "Roboto-Regular", Arial, sans-serif;
+  color:#313131;
+  min-width: 960px;
+	
+}
+
+@media screen and (max-width: 1280px){ 
+	/* Mobile */
+  .face{
+    display:none;
+  }
+}
+
+//fonts
+
+$roboto: "Roboto-Regular";
+$lobster: "Lobster-Regular";
+
+//colors
+
+$text: #111;
+$head: #eee;
+$face: #b41515;
+$projects: #448b25;
+$footer: #808080;
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+       -o-border-radius: $radius;
+		      border-radius: $radius;
+}
+
+.header{
+	height:5.5em;
+	background-color: $head;
+}
+
+.logo{
+	background-color: $head;
+	margin: .7em 0;
+	float: left;
+	font: bold 2em $lobster;
+	
+	a{
+		color:#b41515;
+		text-decoration: none;
+		
+		&:hover, 
+		&:visited, 
+		&:active{
+			color:#b41515;
+		}
+	}
+}
+.menu_top{
+	float: right;
+	margin-top: 2em;
+	
+	ul{
+		list-style: none;
+//		margin-top: .8em;
+		
+	}
+		
+	li{
+		float: left;
+		margin: 0px 1em;
+		padding-bottom: .2em;
+		
+	}
+	
+	a,
+	a:active,
+	a:visited{
+		color: $text;
+		text-decoration:none;
+	}
+	
+	a:hover{
+		cursor: pointer;
+		color: red;
+		
+	}
+	
+	li.active{
+		cursor: pointer;
+		color: red;
+		border-bottom: 2px solid red;
+	}
+}
+
+.face{
+	height: 600px;
+	background-color: $face;
+	text-align: center;
+	
+//	#slider
+	img{
+//		width: 85%;
+//		height: 42em;
+//		position:relative;
+//		overflow: hidden;
+		margin:0 auto;
+//		margin-bottom: 8em;
+	}
+//	#slider img{
+//		width:100%;
+//		position: absolute;
+//		display: none;
+//	}
+//	#slider img:first-child{
+//		display: block;
+//	}
+	
+}
+
+.projects{
+	
+	background-color: $projects;
+	color:white;
+	
+	h2{
+		margin: 2.6em 0;
+		text-align: center;
+		font: 2.6em $roboto;
+		color: $head;
+	}
+	
+	img{
+		width: 15em;
+		height: 22em;
+		padding: 0 .2em;
+		font-size: .8em;
+	}
+	
+	p{
+		margin: 1.2em auto 2em;
+		padding: 0 1em 0 1em;
+		color: $head;
+//		width:18.5em;
+		font: 1em $roboto;
+		text-align: center;
+	}
+	
+	.center{
+		text-align: center;
+	}
+	
+	.line{
+
+		hr{
+			margin: 2em 0 4em;
+			height:1px;
+			border:none;
+			color: #157915;
+			background-color:#157915;
+		}
+	}
+	
+	.line2{
+		height: 5em;
+	}
+}
+
+footer{
+	height: 8em;
+	background-color: #191919;
+	
+	span{
+		color: $face;
+	}
+	
+	ul{
+		list-style: none;
+		margin-top: 1.5em;
+	}
+	
+	li{
+		color: $footer;
+		margin: .4em 0;
+		font: 1em $roboto;
+	}
+	
+	.social{
+		float:right;
+		
+		i{
+		margin: 1.6em .2em;
+		color: $projects;
+		}
+	}
+}
+

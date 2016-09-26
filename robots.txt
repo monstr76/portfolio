@@ -1,5 +1,5 @@
 # www.robotstxt.org/
-#monstr
+# monstr
 
 # Allow crawling of all content
 User-agent: *
